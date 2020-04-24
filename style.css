@@ -1,7 +1,10 @@
 body {
+    height: 100%;
     font-size: 24px;
     font-family: BlinkMacSystemFont, -apple-system, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Open Sans', 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
-    background-color: #202020;
+    background-image: radial-gradient(rgb(136, 14, 14), rgb(206, 206, 206)), url('img/scales.png');
+    background-blend-mode: overlay;
+    background-color: #20202000;
     color: #bbb;
 }
 
@@ -12,6 +15,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #20202000;
 }
 
 ul {
